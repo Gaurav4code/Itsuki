@@ -43,7 +43,7 @@ const Container=styled.div`
 
 margin-top:610px;
 height:3570px;
-border:solid green 3px;
+
 background-color:#0E0B26;
 
 
@@ -71,7 +71,7 @@ left: 103px;
 
 
 text-align:left;
-border:solid white 2px ;
+
 
 font-family:'Poppins';
 h2{
@@ -99,7 +99,6 @@ height:700px;
 
 
 width:725px;
-border:solid 4px red;
 
 `;
 const Img4=styled.img`

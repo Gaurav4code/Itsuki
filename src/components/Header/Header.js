@@ -46,26 +46,26 @@ export default Header;
 
 const Container=styled.div`
 width:1fr;
-border:solid red 2px;
+
 
 `;
 
 const Navbar = styled.div`
   display: flex;
   justify-content: space-between;
-  border: solid red 3px;
+  
   height: 40px;
   width: 1fr;
   height: 78px;
 `;
 const Icon = styled.img`
-  border: solid blue 1px;
+
   background-image: url("../components/Images/ITSUKI.svg");
 `;
 const Links = styled.div`
   display: flex;
   justify-content:space-evenly;
-  border: solid green 2px;
+
   width: 590px;
   height: 60px;
 
