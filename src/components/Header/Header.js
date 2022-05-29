@@ -46,8 +46,27 @@ export default Header;
 
 const Container=styled.div`
 width:1fr;
+height:1080px;
+background-color:#0E0B26;
+border:green 1px solid;
+
+@media (max-width: 768px) {
+    
+  height:auto;
+  
+  display:block; 
+  background-color:#0E0B26;
+
+   
+}
+@media (max-width: 480px) {
+ 
+  height:auto;
+  display:block;
+background-color:#0E0B26;
 
 
+}
 `;
 
 const Navbar = styled.div`
@@ -96,6 +115,24 @@ const Deo = styled.div`
     
     
   }
+  @media (max-width: 768px) {
+    
+    height:auto;
+    width:100%;
+    display:block; 
+background-color:#0E0B26;
+
+     
+}
+  @media (max-width: 480px) {
+   
+    height:auto;
+    display:block;
+background-color:#0E0B26;
+
+  
+  }
+ 
 `;
 const NavLinks=styled.div`
 
